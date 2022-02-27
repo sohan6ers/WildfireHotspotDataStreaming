@@ -1,9 +1,9 @@
-## Wildfire Hotspot Data Streaming Project
+# Wildfire Hotspot Data Streaming Project
 
-# Project Details
+## Project Details
 This project is to build an application, a complete setup from streaming to storing and analyzing the data  using Apache Kafka, Apache Spark Streaming and MongoDB to predict areas in Australia which are most susceptible to wildifres in real-time.
 
-# Information on Dataset
+## Information on Dataset
 Climate data is recorded on a daily basis whereas Fire data is recorded based on the occurrence of a fire on a particular day. Therefore, for one climate data, there can be zero or many fire data. All climate data is an average value for the particular day except for max wind speed..
 The data is NOT row per weather station basis. You can simply think of it as, Station 1 was reporting data for X number of days and then Station 2 started reporting data because Station 1 was shut down for instance.
 Global Horizontal Irradiance (GHI) is the total solar radiation incident on a horizontal surface.
@@ -20,7 +20,7 @@ Note: Many stations do not report '0' on days with no precipitation --therefore,
 ● H = Station reported '0' as the amount for the day (eg, from 6-hour reports), but also reported at least one occurrence of precipitation in hourly observations --this could indicate a trace occurred but should be considered as incomplete data for the day.
 ● I = Station did not report any precipitation data for the day and did not report any occurrences of precipitation in its hourly observations --it's still possible that precipitation occurred but was not reported.
 
-# Architecture
+## Architecture
 The overall architecture of the assignment setup is represented by the following figure.
 ![](Images/Architecture.png)
 
