@@ -24,5 +24,6 @@ Note: Many stations do not report '0' on days with no precipitation --therefore,
 The overall architecture of the assignment setup is represented by the following figure.
 ![](Images/Architecture.png)
 
-Part A consists of reading data from csv files, building a model, saving to MongoDB and running various queries against the database. 
+## Parts of the project
+Part A consists of reading data from csv files, building a model, saving to MongoDB and running various queries against the database.   
 Part B consists of simulating real-time streaming of climate and hotspot data and processing it with Apache Kafka and Spark Streaming.
